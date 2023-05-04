@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  rust:
+    build: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./:/app
+
