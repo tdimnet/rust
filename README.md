@@ -22,3 +22,17 @@ $ cd someproject
 $ cargo build
 ```
 
+## Variables
+
+```
+let apples = 5; // immutable
+let mut bananas = 5; // mutable
+```
+
+## The **Result** enum
+
+- **Result** is an enumeration which is a type that can be in one of multiple
+  states. Each possible state is called a **variant**.
+- **Result**'s variants are __Ok__ and __Err__.
+
+
